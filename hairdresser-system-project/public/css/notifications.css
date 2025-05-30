@@ -1,0 +1,38 @@
+/* Bildirim kutusu elemanları */
+.notification-dropdown .dropdown-menu {
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    border-radius: 12px;
+    padding: 0.5rem 0.75rem;
+}
+
+.notification-dropdown .notification-item {
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.notification-dropdown .notification-item.unread {
+    background-color: #0d6efd1a; /* Bootstrap primary renginin %10 opak hali */
+}
+
+.notification-dropdown .notification-item:hover {
+    background-color: #0d6efd33; /* Daha yoğun hover efekti */
+}
+
+.notification-dropdown .notification-item a {
+    display: block;
+    padding: 0.5rem 0.75rem;
+    border-radius: 8px;
+}
+
+.notification-dropdown .notification-item a:hover {
+    text-decoration: none;
+    color: #0d6efd;
+}
+
+/* Tümünü Okundu Yap butonu */
+.notification-dropdown form button {
+    font-size: 0.9rem;
+    padding: 6px 12px;
+    border-radius: 8px;
+    font-weight: 600;
+}

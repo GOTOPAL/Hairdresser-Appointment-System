@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', 'Outfit', sans-serif;
+    background: linear-gradient(135deg, #fff6d5, #f9e7a5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: #4b4b4b;
+}
+
+.card {
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 60px 50px;
+    max-width: 650px;
+    width: 90%;
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    animation: fadeIn 1s ease;
+}
+
+.card .icon {
+    font-size: 5rem;
+    color: #ffc107;
+    animation: pulse 2s infinite;
+}
+
+.card h1 {
+    font-size: 32px;
+    margin-top: 25px;
+    color: #ffc107;
+}
+
+.card p {
+    font-size: 20px;
+    color: #555;
+    margin-top: 20px;
+    line-height: 1.7;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes pulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.08); }
+}
+
+@media (max-width: 480px) {
+    .card {
+        padding: 40px 20px;
+    }
+    .card h1 {
+        font-size: 26px;
+    }
+    .card p {
+        font-size: 17px;
+    }
+}
