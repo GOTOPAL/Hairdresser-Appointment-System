@@ -66,8 +66,8 @@ Artık proje `http://localhost:8000` adresinde çalışacaktır.
 
 ## 🎨 Ekran Görselleri
 
-Rapor dosyasından ulaşabilirsiniz.
-
+Tüm ekran görüntülerini ve proje önizlemesini aşağıdaki bağlantıdan görebilirsiniz:  
+[📄 Proje Ekran Görselleri ve Önizleme (PDF)](https://drive.google.com/file/d/1eB8tsxX-Jfhf-Z3v-2gFXaiHKLT_VMoH/view?usp=share_link)
 ## 👤 Katkıda Bulunanlar
 
 - **Göktuğ Oğuzhan TOPAL** – Proje Geliştiricisi  
