@@ -1,4 +1,4 @@
-# 💇‍♂️ Hairdresser Paneli
+# 💇‍♂️ Hairdresser Appointment Systems
 
 Bu proje, kuaförlerin müşterilerini, hizmetlerini ve randevularını kolayca yönetmesini sağlayan modern ve kullanıcı dostu bir web panelidir. Laravel PHP framework'ü ve SQL Server veritabanı kullanılarak geliştirilmiştir.
 
